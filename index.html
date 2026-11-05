@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Amos Asunda | Full-Stack Developer & M-Pesa API Specialist | CS Student
+    </title>
+
+    <meta
+      name="description"
+      content="Amos Asunda — Computer Science student at University of Kabianga and full-stack developer skilled in Django, FastAPI, Python, Java, JavaScript, Bootstrap and M-Pesa (Daraja) API integration. eMobilis × Ajira bootcamp graduate. Open to internships and freelance work."
+    />
+    <meta
+      name="keywords"
+      content="Amos Asunda, software developer Kenya, M-Pesa API integration, Daraja API developer, FastAPI developer, Django developer, Python developer Nairobi, JavaScript developer, Java developer, Bootstrap developer, University of Kabianga, eMobilis, Ajira Digital, hire developer Kenya, API integration specialist, full-stack developer Kenya, computer science student developer, expense tracker django, mpesa fastapi, url shortener fastapi"
+    />
+    <meta name="author" content="Amos Asunda" />
+    <meta name="theme-color" content="#0a0f1c" />
+    <link rel="canonical" href="https://asundah.github.io/" />
+
+    <meta
+      property="og:title"
+      content="Amos Asunda | Full-Stack Developer & M-Pesa API Specialist"
+    />
+    <meta
+      property="og:description"
+      content="CS student @ University of Kabianga. Full-stack developer — Django, FastAPI, Python, Java, JS, Bootstrap & M-Pesa API integration."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://asundah.github.io/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>"
+    />
+  </head>
+  <body>
+    <!-- ============ HEADER / NAV ============ -->
+    <header class="site-header" id="header">
+      <nav class="nav container" aria-label="Primary">
+        <a href="#home" class="logo" aria-label="Amos Asunda home">
+          <span class="logo-bracket">&lt;</span>AA<span class="logo-bracket"
+            >/&gt;</span
+          >
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="navMenu"
+          aria-label="Toggle menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-cta-item">
+            <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section id="home" class="hero section">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="grid-overlay"></div>
+          <div class="glow glow-1"></div>
+          <div class="glow glow-2"></div>
+        </div>
+
+        <div class="container hero-grid">
+          <div class="hero-text reveal">
+            <p class="eyebrow">
+              <span class="pulse-dot"></span> Open to internships &amp;
+              freelance
+            </p>
+            <h1 class="hero-title">
+              Hi, I'm <span class="accent">Amos Asunda</span>.<br />
+              I build
+              <span class="typewrite" id="typewriter" aria-live="polite"></span>
+            </h1>
+            <p class="hero-sub">
+              Full-stack developer &amp; Computer Science student specialising
+              in
+              <strong>Python</strong>, <strong>Java</strong>,
+              <strong>JavaScript</strong>, <strong>FastAPI</strong>,
+              <strong>Django</strong> and <strong>API integration</strong> —
+              including <strong>M-Pesa (Daraja)</strong> payment gateways.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#skills" class="btn btn-ghost">View Skills</a>
+            </div>
+
+            <div class="hero-contact-cta">
+              <a
+                href="https://wa.me/254143280725?text=Hi%20Amos%2C%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect."
+                target="_blank"
+                rel="noopener"
+                class="btn btn-whatsapp"
+              >
+                <span class="btn-icon">💬</span> WhatsApp Me
+              </a>
+              <a href="tel:+254143280725" class="btn btn-call">
+                <span class="btn-icon">📞</span> Call Me
+              </a>
+            </div>
+
+            <div class="hero-links">
+              <a
+                href="https://github.com/asundah"
+                target="_blank"
+                rel="noopener"
+                aria-label="GitHub"
+                >GitHub ↗</a
+              >
+              <a
+                href="https://www.linkedin.com/in/amos-asunda"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+                >LinkedIn ↗</a
+              >
+              <a href="tel:+254143280725" aria-label="Phone"
+                >+254 143 280 725</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-image-wrap reveal">
+            <div class="hero-image-frame">
+              <img
+                src="assets/profile.jpg"
+                alt="Portrait of Amos Asunda"
+                class="hero-image"
+                onerror="
+                  this.style.display = 'none';
+                  this.parentElement.classList.add('no-img');
+                "
+              />
+              <div class="no-img-fallback" aria-hidden="true">AA</div>
+            </div>
+            <div class="floating-chip chip-1">⚡ FastAPI</div>
+            <div class="floating-chip chip-2">🐍 Python</div>
+            <div class="floating-chip chip-3">📱 M-Pesa API</div>
+          </div>
+        </div>
+
+        <a href="#about" class="scroll-hint" aria-label="Scroll down">
+          <span></span>
+        </a>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="about-header reveal">
+            <p class="section-eyebrow">// about</p>
+            <h2 class="section-title">Who I Am</h2>
+          </div>
+
+          <div class="about-layout">
+            <div class="about-bio reveal">
+              <div class="about-bio-accent"></div>
+              <p>
+                I'm <strong>Amos Asunda</strong> — a full-stack developer and
+                Computer Science student at the
+                <strong>University of Kabianga</strong>. I build things for the
+                web: clean interfaces, solid backends, and integrations that
+                connect them to the real world.
+              </p>
+              <p>
+                My focus is <strong>Python</strong> (FastAPI, Django) and
+                <strong>API integration</strong>. I've built payment flows with
+                the <strong>M-Pesa Daraja API</strong> — STK Push, C2B,
+                callbacks — and I enjoy the challenge of making two systems talk
+                to each other reliably.
+              </p>
+              <p>
+                I trained through the
+                <strong>eMobilis × Ajira Digital</strong> full-stack bootcamp,
+                where I shipped Django apps end-to-end, and I'm currently
+                deepening my CS fundamentals at university. I care about code
+                that works, communicates clearly, and doesn't break under
+                pressure.
+              </p>
+            </div>
+
+            <div class="about-panels reveal">
+              <div class="about-panel">
+                <div class="about-panel-icon">🎓</div>
+                <div>
+                  <h4>Currently</h4>
+                  <p>
+                    BSc. Computer Science<br /><span
+                      >University of Kabianga · 2024–2028</span
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-panel">
+                <div class="about-panel-icon">⚡</div>
+                <div>
+                  <h4>Building with</h4>
+                  <p>
+                    FastAPI · Django · M-Pesa API<br /><span
+                      >Python · Java · JavaScript</span
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-panel">
+                <div class="about-panel-icon">💼</div>
+                <div>
+                  <h4>Open to</h4>
+                  <p>
+                    Internships · Freelance<br /><span
+                      >Remote or on-site (Kenya)</span
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-panel about-panel-cta">
+                <p>Have a project or role in mind?</p>
+                <a href="#contact" class="btn btn-primary btn-sm"
+                  >Let's Talk →</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <p class="section-eyebrow">// skills</p>
+          <h2 class="section-title">Tech Stack</h2>
+          <p class="section-lead">
+            Tools and technologies I use to build and integrate systems.
+          </p>
+
+          <div class="skills-grid">
+            <div class="skill-card reveal">
+              <div class="skill-icon">🌐</div>
+              <h3>Frontend</h3>
+              <ul class="tag-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-icon">🐍</div>
+              <h3>Python</h3>
+              <ul class="tag-list">
+                <li>FastAPI</li>
+                <li>Django</li>
+                <li>REST APIs</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-icon">☕</div>
+              <h3>Java</h3>
+              <ul class="tag-list">
+                <li>OOP</li>
+                <li>Spring basics</li>
+                <li>Backend logic</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-icon">🔗</div>
+              <h3>API Integration</h3>
+              <ul class="tag-list">
+                <li>M-Pesa Daraja</li>
+                <li>STK Push</li>
+                <li>Webhooks</li>
+                <li>Auth</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-icon">🛠️</div>
+              <h3>Tooling</h3>
+              <ul class="tag-list">
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Postman</li>
+                <li>VS Code</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-icon">💡</div>
+              <h3>Practices</h3>
+              <ul class="tag-list">
+                <li>Responsive design</li>
+                <li>Clean code</li>
+                <li>Debugging</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section id="projects" class="section">
+        <div class="container">
+          <p class="section-eyebrow">// projects</p>
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-lead">
+            A look at what I've built — payment integrations, full-stack apps,
+            and works in progress.
+          </p>
+
+          <div class="projects-grid">
+            <!-- ============================================================
+               PROJECT 1: M-Pesa Full-Stack App (FEATURED)
+               ============================================================ -->
+            <article class="project-card reveal featured">
+              <div class="project-card-badge">Featured</div>
+              <div class="project-thumb project-thumb-img">
+                <img
+                  src="assets/project-images/mpesa-fullstack-app/homepage.png"
+                  alt="M-Pesa Full-Stack App screenshot"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-img');
+                    this.parentElement.innerHTML = '📱';
+                  "
+                />
+              </div>
+              <h3>M-Pesa Full-Stack App</h3>
+              <p>
+                Complete M-Pesa payment solution with STK Push initiation,
+                real-time status updates, transaction history saved to SQLite,
+                and an admin dashboard with payment statistics. Handles Daraja
+                callbacks end-to-end with a Bootstrap UI.
+              </p>
+              <ul class="tag-list small">
+                <li>FastAPI</li>
+                <li>M-Pesa Daraja</li>
+                <li>SQLite</li>
+                <li>Bootstrap</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://mpesa-fullstack-app.onrender.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-ghost btn-sm"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/Asundah/mpesa-fullstack-app"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-ghost btn-sm"
+                  >View Code</a
+                >
+              </div>
+            </article>
+
+            <!-- ============================================================
+               PROJECT 2: Django Expense Tracker
+               ============================================================ -->
+            <article class="project-card reveal">
+              <div class="project-thumb project-thumb-img">
+                <img
+                  src="assets/project-images/expense-tracker-django/expense.png"
+                  alt="Django Expense Tracker screenshot"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-img');
+                    this.parentElement.innerHTML = '📊';
+                  "
+                />
+              </div>
+              <h3>Expense Tracker (Django)</h3>
+              <p>
+                Full-stack expense tracker with Django authentication,
+                user-scoped CRUD operations, and an interactive Chart.js
+                dashboard. Monorepo with separate backend and frontend for clean
+                separation of concerns.
+              </p>
+              <ul class="tag-list small">
+                <li>Django</li>
+                <li>Chart.js</li>
+                <li>Auth</li>
+                <li>CRUD</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://expense-tracker-django-frontend.onrender.com"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-ghost btn-sm"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/Asundah/expense-tracker-django"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-ghost btn-sm"
+                  >View Code</a
+                >
+              </div>
+            </article>
+
+            <!-- ============================================================
+               PROJECT 3: URL Shortener (FastAPI)
+               ============================================================ -->
+            <article class="project-card reveal">
+              <div class="project-thumb project-thumb-img">
+                <img
+                  src="assets/project-images/url-shortener/index.png"
+                  alt="URL Shortener FastAPI screenshot"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-img');
+                    this.parentElement.innerHTML = '🔗';
+                  "
+                />
+              </div>
+              <h3>
+                URL Shortener (FastAPI)
+                <!-- <span class="in-progress-tag">in progress</span> -->
+              </h3>
+              <p>
+                A fast, minimal URL shortener API built with FastAPI. Generate
+                short links, handle redirects with sub-millisecond lookups, and
+                track click analytics — designed with a clean REST interface and
+                persistent storage.
+              </p>
+              <ul class="tag-list small">
+                <li>FastAPI</li>
+                <li>Python</li>
+                <li>REST API</li>
+                <li>Redirects</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://fastapi-url-shortener-rlzo.onrender.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-ghost btn-sm"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/Asundah/fastapi-url-shortener"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-ghost btn-sm"
+                  >Code</a
+                >
+              </div>
+            </article>
+
+            <!-- ============================================================
+               PROJECT 4: E-commerce Backend (IN PROGRESS)
+               ============================================================ -->
+            <article class="project-card reveal building">
+              <div class="project-card-badge building-badge">Building</div>
+              <div class="project-thumb project-thumb-img">
+                <img
+                  src="assets/project-images/ecommerce/index.png"
+                  alt="E-commerce Backend screenshot"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-img');
+                    this.parentElement.innerHTML = '🛒';
+                  "
+                />
+              </div>
+              <h3>
+                E-commerce Backend
+                <span class="in-progress-tag">in progress</span>
+              </h3>
+              <p>
+                A REST API for a store with JWT auth, product catalog, cart, and
+                checkout — designed to plug directly into the M-Pesa payment
+                service. Currently in development.
+              </p>
+              <ul class="tag-list small">
+                <li>FastAPI</li>
+                <li>JWT Auth</li>
+                <li>PostgreSQL</li>
+                <li>M-Pesa</li>
+              </ul>
+              <div class="project-links">
+                <span
+                  class="btn btn-ghost btn-sm disabled-link"
+                  aria-disabled="true"
+                  >Coming Soon</span
+                >
+              </div>
+            </article>
+          </div>
+
+          <div class="center-cta">
+            <a href="#contact" class="btn btn-primary">Discuss a Project</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EDUCATION ============ -->
+      <section id="education" class="section section-alt">
+        <div class="container">
+          <p class="section-eyebrow">// education</p>
+          <h2 class="section-title">Education &amp; Certifications</h2>
+          <p class="section-lead">
+            Formal CS training, intensive hands-on bootcamp experience, and
+            self-driven certifications.
+          </p>
+
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2024 – 2028 (Expected)</span>
+                <h3>BSc. Computer Science</h3>
+                <p>University of Kabianga, Kenya</p>
+                <ul class="tag-list small timeline-tags">
+                  <li>Algorithms</li>
+                  <li>Data Structures</li>
+                  <li>OOP</li>
+                  <li>Databases</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2023</span>
+                <h3>Full-Stack Web Development Bootcamp</h3>
+                <p>
+                  eMobilis × Ajira Digital Program — 2-month intensive program
+                </p>
+                <ul class="tag-list small timeline-tags">
+                  <li>Django</li>
+                  <li>Bootstrap</li>
+                  <li>M-Pesa Integration</li>
+                  <li>Full-Stack</li>
+                </ul>
+
+                <!-- ================================================================
+                   eMobilis certificate placeholder — uncomment ONE version when ready:
+                   IMAGE version:
+                   <a href="assets/emobilis-cert.jpg" target="_blank" rel="noopener" class="cert-link">
+                     <img src="assets/emobilis-cert.jpg" alt="eMobilis Certificate" class="cert-thumb" />
+                     <span>View certificate ↗</span>
+                   </a>
+                   LINK version:
+                   <a href="https://PASTE-YOUR-EMOBILIS-CERT-URL-HERE" target="_blank" rel="noopener" class="cert-link">
+                     🔗 View eMobilis certificate ↗
+                   </a>
+                   ================================================================ -->
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">Certification</span>
+                <h3>Python Course</h3>
+                <p>Kaggle</p>
+                <ul class="tag-list small timeline-tags">
+                  <li>Python</li>
+                  <li>Data handling</li>
+                </ul>
+                <a
+                  href="https://www.kaggle.com/learn/certification/asunda/python"
+                  target="_blank"
+                  rel="noopener"
+                  class="cert-link"
+                >
+                  🔗 View Kaggle certificate ↗
+                </a>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">Certification</span>
+                <h3>Digital Marketing Fundamentals</h3>
+                <p>Google Digital Garage</p>
+                <ul class="tag-list small timeline-tags">
+                  <li>SEO</li>
+                  <li>Marketing</li>
+                  <li>Analytics</li>
+                </ul>
+                <a
+                  href="https://skillshop.exceedlms.com/student/award/cxP3bHuoxHxEuuaBwGJtPZHW"
+                  target="_blank"
+                  rel="noopener"
+                  class="cert-link"
+                >
+                  🔗 View Google certificate ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact" class="section contact-section">
+        <div class="container contact-grid">
+          <div class="contact-text reveal">
+            <p class="section-eyebrow">// contact</p>
+            <h2 class="section-title">Let's Build Something</h2>
+            <p>
+              Have a project in mind, need an API integrated, or looking for a
+              developer to join your team? I'm one message away.
+            </p>
+
+            <ul class="contact-list">
+              <li>
+                <span>📞</span> <a href="tel:+254143280725">+254 143 280 725</a>
+              </li>
+              <li>
+                <span>💬</span>
+                <a
+                  href="https://wa.me/254143280725?text=Hi%20Amos%2C%20I%20saw%20your%20portfolio."
+                  target="_blank"
+                  rel="noopener"
+                  >WhatsApp: +254 143 280 725</a
+                >
+              </li>
+              <li>
+                <span>💻</span>
+                <a
+                  href="https://github.com/asundah"
+                  target="_blank"
+                  rel="noopener"
+                  >github.com/asundah</a
+                >
+              </li>
+              <li>
+                <span>💼</span>
+                <a
+                  href="https://www.linkedin.com/in/amos-asunda"
+                  target="_blank"
+                  rel="noopener"
+                  >linkedin.com/in/amos-asunda</a
+                >
+              </li>
+            </ul>
+
+            <div class="contact-quick">
+              <a
+                href="https://wa.me/254143280725?text=Hi%20Amos%2C%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect."
+                target="_blank"
+                rel="noopener"
+                class="btn btn-whatsapp"
+              >
+                <span class="btn-icon">💬</span> Chat on WhatsApp
+              </a>
+              <a href="tel:+254143280725" class="btn btn-call">
+                <span class="btn-icon">📞</span> Call Now
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                placeholder="Your name"
+              />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="you@example.com"
+              />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder="Tell me about your project..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Send via WhatsApp
+            </button>
+            <p class="form-note" id="formNote" role="status"></p>
+            <p class="form-hint">
+              This opens WhatsApp with your message pre-filled — no forms lost.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#home" class="logo footer-logo"
+            ><span class="logo-bracket">&lt;</span>AA<span class="logo-bracket"
+              >/&gt;</span
+            ></a
+          >
+          <p class="footer-tag">
+            Full-stack developer • API integration • M-Pesa • CS @ University of
+            Kabianga
+          </p>
+        </div>
+        <div>
+          <h4>Navigate</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul class="footer-links">
+            <li>
+              <a
+                href="https://github.com/asundah"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/amos-asunda"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://wa.me/254143280725"
+                target="_blank"
+                rel="noopener"
+                >WhatsApp</a
+              >
+            </li>
+            <li><a href="tel:+254143280725">Phone</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Amos Asunda. All rights reserved.</p>
+        <a href="#home" class="back-top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <!-- ============ FLOATING CONTACT (bottom-right, non-intrusive) ============ -->
+    <div class="fab-group" aria-label="Quick contact">
+      <a
+        href="https://wa.me/254143280725?text=Hi%20Amos%2C%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect."
+        target="_blank"
+        rel="noopener"
+        class="fab fab-whatsapp"
+        aria-label="Chat on WhatsApp"
+      >
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+          />
+        </svg>
+      </a>
+      <a href="tel:+254143280725" class="fab fab-call" aria-label="Call Amos">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path
+            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
